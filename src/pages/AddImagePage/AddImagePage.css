@@ -1,0 +1,23 @@
+.add-image-page {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.add-image-page .add-form {
+  padding: 8px 24px;
+  /* background-color: aliceblue; */
+  flex: 1;
+  width: 100%;
+  overflow: auto;
+}
+
+.add-form .form{
+    flex:0.4;
+}
+
+.preview{
+  height: 20vh;
+  width: 20vw;
+  object-fit: cover;
+}

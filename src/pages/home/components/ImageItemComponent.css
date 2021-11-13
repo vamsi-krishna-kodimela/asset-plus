@@ -1,0 +1,29 @@
+.image-item {
+  max-height: 100px;
+}
+
+.image-container {
+  height: 100%;
+  background-color: red;
+  flex: 0.35;
+}
+
+.image-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.info-container {
+  flex: 0.65;
+}
+
+.img-item-title {
+  font-weight: 700;
+}
+
+.dialog-alert{
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+}

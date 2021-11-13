@@ -1,0 +1,13 @@
+.header-component{
+    border-bottom: 1px solid black;
+}
+
+.header-component h1{
+    font-size: 24px;
+}
+
+.header-component .search-box input{
+    background-color: #eeeeee;
+    border: none;
+    padding: 8px;
+}
